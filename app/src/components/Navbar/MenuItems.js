@@ -1,16 +1,16 @@
 const MenuItems = [
     {
-        title : "Overview",
-        url : "/",
+        title: "Overview",
+        url: "/",
     },
     {
-        title : "Docs",
-        url : "/Docs",
+        title: "Docs",
+        url: "/Docs",
     },
     {
-        title : "Launch App",
-        url : "/Dapp",
+        title: "Launch App",
+        url: "/Dapp",
     }
 ]
 
-export {MenuItems}
+export { MenuItems }

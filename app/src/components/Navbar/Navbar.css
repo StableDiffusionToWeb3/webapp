@@ -6,15 +6,15 @@
 
 }
 
-.navbar-logo-container{
+.navbar-logo-container {
     display: flex;
     margin-left: 4vw;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.menu-icon{
+.menu-icon {
     display: none;
 }
 
