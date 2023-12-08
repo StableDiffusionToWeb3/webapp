@@ -1,3 +1,10 @@
+:root {
+    --background: #191B1F;
+    --button-primary: #0D6EFD;
+    --button-border: #15376C;
+    --chart: #e8e8e8;
+}
+
 .overview-container {
     background-color: crimson;
 }

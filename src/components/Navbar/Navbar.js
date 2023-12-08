@@ -28,17 +28,14 @@ class Navbar extends Component {
           <div className="navbar-logo-container"><img className="navbar-logo-img" src="logo512.png" alt="logo" /><div className="navbar-logo-text">Logo </div>{" "}</div>
         </Link>
         <div className="menu-icon" onClick={this.handleClick}>
-          <i className={this.state.clicked ? "lni lni-cross-circle" : "lni lni-menu"} /></div>
+          <i className={this.state.clicked ? "lni lni-cross-circle" : "lni lni-menu"} />
+        </div>
 
         <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
-          {MenuItems.map((item, index) => {
-            return (
-              <li key={index}>{" "}
-                <Link to={item.url} onClick={() => { this.setState({ clicked: false }); }}>{" "}<a className={item.cName}> {item.title} </a>{" "} </Link>
-              </li>
-            );
-          }
-          )
+          {
+            MenuItems.map((item, index) => {
+              return <li key={index}> <Link to={item.url} onClick={() => { this.setState({ clicked: false }) }}> <a className={item.cName}> {item.title} </a> </Link></li>
+            })
           }
         </ul>
 
