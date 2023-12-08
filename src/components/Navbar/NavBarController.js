@@ -8,7 +8,7 @@ function NavBarController() {
     console.log(location.pathname)
 
     return (
-        location.pathname == "/Dapp" ? null : <Navbar />
+        <Navbar />
     )
 }
 

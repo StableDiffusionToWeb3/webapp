@@ -10,7 +10,7 @@ const MenuItems = [
         cName: 'nav-links'
     },
     {
-        title: "Launch App",
+        title: "",
         url: "/Dapp",
 
     }
